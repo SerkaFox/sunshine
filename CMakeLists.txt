@@ -22,6 +22,7 @@ if(WIN32)
 		set(FFMPEG_INCLUDE_DIRS
 			${SUNSHINE_PREPARED_BINARIES}/include)
 		set(FFMPEG_LIBRARIES
+			ssp
 			${SUNSHINE_PREPARED_BINARIES}/lib/libavcodec.a
 			${SUNSHINE_PREPARED_BINARIES}/lib/libavdevice.a
 			${SUNSHINE_PREPARED_BINARIES}/lib/libavfilter.a
@@ -57,6 +58,7 @@ if(WIN32)
 	include_directories(
 		ViGEmClient/include)
 	set(PLATFORM_TARGET_FILES
+		sunshine/platform/windows/service.cpp
 		sunshine/platform/windows/input.cpp
 		sunshine/platform/windows/display.h
 		sunshine/platform/windows/display_base.cpp

@@ -65,7 +65,7 @@ void on_signal(int sig, FN &&fn) {
   std::signal(sig, on_signal_forwarder);
 }
 
-int main(int argc, char *argv[]) {
+int main_init(int argc, char *argv[], std::function<void()> func) {
   if(config::parse(argc, argv)) {
     return 0;
   }
@@ -149,7 +149,8 @@ int main(int argc, char *argv[]) {
   std::thread httpThread { nvhttp::start, shutdown_event };
   stream::rtpThread(shutdown_event);
 
-  httpThread.join();
+  func();
 
+  httpThread.join();
   return 0;
 }
