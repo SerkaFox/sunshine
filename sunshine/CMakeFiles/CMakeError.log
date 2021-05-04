@@ -1,0 +1,1064 @@
+Determining if the function fcntl exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_e5b0f/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_e5b0f.dir/build.make CMakeFiles/cmTC_e5b0f.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5b0f.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=fcntl -o CMakeFiles/cmTC_e5b0f.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e5b0f.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_e5b0f.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_e5b0f.dir/objects.a @CMakeFiles/cmTC_e5b0f.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=fcntl -Wl,--whole-archive CMakeFiles/cmTC_e5b0f.dir/objects.a -Wl,--no-whole-archive -o cmTC_e5b0f.exe -Wl,--out-implib,libcmTC_e5b0f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_e5b0f.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_e5b0f.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `fcntl'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_e5b0f.dir/build.make:102: cmTC_e5b0f.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_e5b0f/fast] Error 2
+
+
+
+Determining if the function ioctl exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_121e2/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_121e2.dir/build.make CMakeFiles/cmTC_121e2.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_121e2.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=ioctl -o CMakeFiles/cmTC_121e2.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_121e2.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_121e2.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_121e2.dir/objects.a @CMakeFiles/cmTC_121e2.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=ioctl -Wl,--whole-archive CMakeFiles/cmTC_121e2.dir/objects.a -Wl,--no-whole-archive -o cmTC_121e2.exe -Wl,--out-implib,libcmTC_121e2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_121e2.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_121e2.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `ioctl'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_121e2.dir/build.make:102: cmTC_121e2.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_121e2/fast] Error 2
+
+
+
+Determining if the function poll exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_99973/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_99973.dir/build.make CMakeFiles/cmTC_99973.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99973.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=poll -o CMakeFiles/cmTC_99973.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_99973.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_99973.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_99973.dir/objects.a @CMakeFiles/cmTC_99973.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=poll -Wl,--whole-archive CMakeFiles/cmTC_99973.dir/objects.a -Wl,--no-whole-archive -o cmTC_99973.exe -Wl,--out-implib,libcmTC_99973.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_99973.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_99973.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `poll'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_99973.dir/build.make:102: cmTC_99973.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_99973/fast] Error 2
+
+
+
+Determining if the function getaddrinfo exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_5365c/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_5365c.dir/build.make CMakeFiles/cmTC_5365c.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5365c.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=getaddrinfo -o CMakeFiles/cmTC_5365c.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5365c.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_5365c.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_5365c.dir/objects.a @CMakeFiles/cmTC_5365c.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=getaddrinfo -Wl,--whole-archive CMakeFiles/cmTC_5365c.dir/objects.a -Wl,--no-whole-archive -o cmTC_5365c.exe -Wl,--out-implib,libcmTC_5365c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5365c.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_5365c.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `getaddrinfo'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_5365c.dir/build.make:102: cmTC_5365c.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_5365c/fast] Error 2
+
+
+
+Determining if the function getnameinfo exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_678c5/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_678c5.dir/build.make CMakeFiles/cmTC_678c5.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_678c5.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=getnameinfo -o CMakeFiles/cmTC_678c5.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_678c5.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_678c5.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_678c5.dir/objects.a @CMakeFiles/cmTC_678c5.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=getnameinfo -Wl,--whole-archive CMakeFiles/cmTC_678c5.dir/objects.a -Wl,--no-whole-archive -o cmTC_678c5.exe -Wl,--out-implib,libcmTC_678c5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_678c5.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_678c5.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `getnameinfo'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_678c5.dir/build.make:102: cmTC_678c5.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_678c5/fast] Error 2
+
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_a7a62/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_a7a62.dir/build.make CMakeFiles/cmTC_a7a62.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7a62.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -o CMakeFiles/cmTC_a7a62.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a7a62.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_a7a62.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_a7a62.dir/objects.a @CMakeFiles/cmTC_a7a62.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -Wl,--whole-archive CMakeFiles/cmTC_a7a62.dir/objects.a -Wl,--no-whole-archive -o cmTC_a7a62.exe -Wl,--out-implib,libcmTC_a7a62.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a7a62.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_a7a62.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `gethostbyname_r'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_a7a62.dir/build.make:102: cmTC_a7a62.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_a7a62/fast] Error 2
+
+
+
+Determining if the function gethostbyaddr_r exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_446f4/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_446f4.dir/build.make CMakeFiles/cmTC_446f4.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_446f4.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -o CMakeFiles/cmTC_446f4.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_446f4.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_446f4.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_446f4.dir/objects.a @CMakeFiles/cmTC_446f4.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -Wl,--whole-archive CMakeFiles/cmTC_446f4.dir/objects.a -Wl,--no-whole-archive -o cmTC_446f4.exe -Wl,--out-implib,libcmTC_446f4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_446f4.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_446f4.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `gethostbyaddr_r'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_446f4.dir/build.make:102: cmTC_446f4.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_446f4/fast] Error 2
+
+
+
+Determining if the function inet_pton exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_68871/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_68871.dir/build.make CMakeFiles/cmTC_68871.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68871.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=inet_pton -o CMakeFiles/cmTC_68871.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_68871.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_68871.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_68871.dir/objects.a @CMakeFiles/cmTC_68871.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=inet_pton -Wl,--whole-archive CMakeFiles/cmTC_68871.dir/objects.a -Wl,--no-whole-archive -o cmTC_68871.exe -Wl,--out-implib,libcmTC_68871.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_68871.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_68871.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `inet_pton'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_68871.dir/build.make:102: cmTC_68871.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_68871/fast] Error 2
+
+
+
+Determining if the function inet_ntop exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_5974f/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_5974f.dir/build.make CMakeFiles/cmTC_5974f.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5974f.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=inet_ntop -o CMakeFiles/cmTC_5974f.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5974f.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_5974f.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_5974f.dir/objects.a @CMakeFiles/cmTC_5974f.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=inet_ntop -Wl,--whole-archive CMakeFiles/cmTC_5974f.dir/objects.a -Wl,--no-whole-archive -o cmTC_5974f.exe -Wl,--out-implib,libcmTC_5974f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5974f.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_5974f.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `inet_ntop'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_5974f.dir/build.make:102: cmTC_5974f.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_5974f/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAS_MSGHDR_FLAGS failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_bc257/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_bc257.dir/build.make CMakeFiles/cmTC_bc257.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc257.dir/src.c.obj
+C:/msys64/mingw64/bin/cc.exe -DHAS_MSGHDR_FLAGS   -o CMakeFiles/cmTC_bc257.dir/src.c.obj -c X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp/src.c
+X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp/src.c:3:10: fatal error: sys/socket.h: No such file or directory
+    3 | #include <sys/socket.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make.exe[1]: *** [CMakeFiles/cmTC_bc257.dir/build.make:78: CMakeFiles/cmTC_bc257.dir/src.c.obj] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_bc257/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct msghdr *)0)->msg_flags);
+  return 0;
+}
+
+Determining size of socklen_t failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_f7375/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_f7375.dir/build.make CMakeFiles/cmTC_f7375.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7375.dir/HAS_SOCKLEN_T.c.obj
+C:/msys64/mingw64/bin/cc.exe    -o CMakeFiles/cmTC_f7375.dir/HAS_SOCKLEN_T.c.obj -c X:/RegAme/sunshine/sunshine/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c
+X:/RegAme/sunshine/sunshine/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c:2:10: fatal error: sys/socket.h: No such file or directory
+    2 | #include "sys/socket.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make.exe[1]: *** [CMakeFiles/cmTC_f7375.dir/build.make:78: CMakeFiles/cmTC_f7375.dir/HAS_SOCKLEN_T.c.obj] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_f7375/fast] Error 2
+
+
+X:/RegAme/sunshine/sunshine/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c:
+#include "sys/types.h"
+#include "sys/socket.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fcntl exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_a4ba5/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_a4ba5.dir/build.make CMakeFiles/cmTC_a4ba5.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4ba5.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=fcntl -o CMakeFiles/cmTC_a4ba5.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a4ba5.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_a4ba5.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_a4ba5.dir/objects.a @CMakeFiles/cmTC_a4ba5.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=fcntl -Wl,--whole-archive CMakeFiles/cmTC_a4ba5.dir/objects.a -Wl,--no-whole-archive -o cmTC_a4ba5.exe -Wl,--out-implib,libcmTC_a4ba5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a4ba5.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_a4ba5.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `fcntl'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_a4ba5.dir/build.make:102: cmTC_a4ba5.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_a4ba5/fast] Error 2
+
+
+
+Determining if the function ioctl exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_ca5fc/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_ca5fc.dir/build.make CMakeFiles/cmTC_ca5fc.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca5fc.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=ioctl -o CMakeFiles/cmTC_ca5fc.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ca5fc.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_ca5fc.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_ca5fc.dir/objects.a @CMakeFiles/cmTC_ca5fc.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=ioctl -Wl,--whole-archive CMakeFiles/cmTC_ca5fc.dir/objects.a -Wl,--no-whole-archive -o cmTC_ca5fc.exe -Wl,--out-implib,libcmTC_ca5fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ca5fc.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_ca5fc.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `ioctl'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_ca5fc.dir/build.make:102: cmTC_ca5fc.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_ca5fc/fast] Error 2
+
+
+
+Determining if the function poll exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_bafb8/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_bafb8.dir/build.make CMakeFiles/cmTC_bafb8.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bafb8.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=poll -o CMakeFiles/cmTC_bafb8.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bafb8.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_bafb8.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_bafb8.dir/objects.a @CMakeFiles/cmTC_bafb8.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=poll -Wl,--whole-archive CMakeFiles/cmTC_bafb8.dir/objects.a -Wl,--no-whole-archive -o cmTC_bafb8.exe -Wl,--out-implib,libcmTC_bafb8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_bafb8.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_bafb8.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `poll'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_bafb8.dir/build.make:102: cmTC_bafb8.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_bafb8/fast] Error 2
+
+
+
+Determining if the function getaddrinfo exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_4e574/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_4e574.dir/build.make CMakeFiles/cmTC_4e574.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e574.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=getaddrinfo -o CMakeFiles/cmTC_4e574.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4e574.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_4e574.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_4e574.dir/objects.a @CMakeFiles/cmTC_4e574.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=getaddrinfo -Wl,--whole-archive CMakeFiles/cmTC_4e574.dir/objects.a -Wl,--no-whole-archive -o cmTC_4e574.exe -Wl,--out-implib,libcmTC_4e574.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_4e574.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_4e574.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `getaddrinfo'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_4e574.dir/build.make:102: cmTC_4e574.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_4e574/fast] Error 2
+
+
+
+Determining if the function getnameinfo exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_34979/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_34979.dir/build.make CMakeFiles/cmTC_34979.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34979.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=getnameinfo -o CMakeFiles/cmTC_34979.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34979.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_34979.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_34979.dir/objects.a @CMakeFiles/cmTC_34979.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=getnameinfo -Wl,--whole-archive CMakeFiles/cmTC_34979.dir/objects.a -Wl,--no-whole-archive -o cmTC_34979.exe -Wl,--out-implib,libcmTC_34979.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_34979.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_34979.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `getnameinfo'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_34979.dir/build.make:102: cmTC_34979.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_34979/fast] Error 2
+
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_cb55b/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_cb55b.dir/build.make CMakeFiles/cmTC_cb55b.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb55b.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -o CMakeFiles/cmTC_cb55b.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cb55b.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_cb55b.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_cb55b.dir/objects.a @CMakeFiles/cmTC_cb55b.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -Wl,--whole-archive CMakeFiles/cmTC_cb55b.dir/objects.a -Wl,--no-whole-archive -o cmTC_cb55b.exe -Wl,--out-implib,libcmTC_cb55b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_cb55b.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_cb55b.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `gethostbyname_r'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_cb55b.dir/build.make:102: cmTC_cb55b.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_cb55b/fast] Error 2
+
+
+
+Determining if the function gethostbyaddr_r exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_f4fd8/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_f4fd8.dir/build.make CMakeFiles/cmTC_f4fd8.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4fd8.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -o CMakeFiles/cmTC_f4fd8.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f4fd8.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_f4fd8.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_f4fd8.dir/objects.a @CMakeFiles/cmTC_f4fd8.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -Wl,--whole-archive CMakeFiles/cmTC_f4fd8.dir/objects.a -Wl,--no-whole-archive -o cmTC_f4fd8.exe -Wl,--out-implib,libcmTC_f4fd8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_f4fd8.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_f4fd8.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `gethostbyaddr_r'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_f4fd8.dir/build.make:102: cmTC_f4fd8.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_f4fd8/fast] Error 2
+
+
+
+Determining if the function inet_pton exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_25dfd/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_25dfd.dir/build.make CMakeFiles/cmTC_25dfd.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25dfd.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=inet_pton -o CMakeFiles/cmTC_25dfd.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_25dfd.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_25dfd.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_25dfd.dir/objects.a @CMakeFiles/cmTC_25dfd.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=inet_pton -Wl,--whole-archive CMakeFiles/cmTC_25dfd.dir/objects.a -Wl,--no-whole-archive -o cmTC_25dfd.exe -Wl,--out-implib,libcmTC_25dfd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_25dfd.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_25dfd.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `inet_pton'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_25dfd.dir/build.make:102: cmTC_25dfd.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_25dfd/fast] Error 2
+
+
+
+Determining if the function inet_ntop exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_4cca7/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_4cca7.dir/build.make CMakeFiles/cmTC_4cca7.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cca7.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=inet_ntop -o CMakeFiles/cmTC_4cca7.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4cca7.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_4cca7.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_4cca7.dir/objects.a @CMakeFiles/cmTC_4cca7.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=inet_ntop -Wl,--whole-archive CMakeFiles/cmTC_4cca7.dir/objects.a -Wl,--no-whole-archive -o cmTC_4cca7.exe -Wl,--out-implib,libcmTC_4cca7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_4cca7.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_4cca7.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `inet_ntop'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_4cca7.dir/build.make:102: cmTC_4cca7.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_4cca7/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAS_MSGHDR_FLAGS failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_a97f3/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_a97f3.dir/build.make CMakeFiles/cmTC_a97f3.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a97f3.dir/src.c.obj
+C:/msys64/mingw64/bin/cc.exe -DHAS_MSGHDR_FLAGS   -o CMakeFiles/cmTC_a97f3.dir/src.c.obj -c X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp/src.c
+X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp/src.c:3:10: fatal error: sys/socket.h: No such file or directory
+    3 | #include <sys/socket.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make.exe[1]: *** [CMakeFiles/cmTC_a97f3.dir/build.make:78: CMakeFiles/cmTC_a97f3.dir/src.c.obj] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_a97f3/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct msghdr *)0)->msg_flags);
+  return 0;
+}
+
+Determining size of socklen_t failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_f383f/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_f383f.dir/build.make CMakeFiles/cmTC_f383f.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f383f.dir/HAS_SOCKLEN_T.c.obj
+C:/msys64/mingw64/bin/cc.exe    -o CMakeFiles/cmTC_f383f.dir/HAS_SOCKLEN_T.c.obj -c X:/RegAme/sunshine/sunshine/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c
+X:/RegAme/sunshine/sunshine/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c:2:10: fatal error: sys/socket.h: No such file or directory
+    2 | #include "sys/socket.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make.exe[1]: *** [CMakeFiles/cmTC_f383f.dir/build.make:78: CMakeFiles/cmTC_f383f.dir/HAS_SOCKLEN_T.c.obj] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_f383f/fast] Error 2
+
+
+X:/RegAme/sunshine/sunshine/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c:
+#include "sys/types.h"
+#include "sys/socket.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fcntl exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_cf6ba/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_cf6ba.dir/build.make CMakeFiles/cmTC_cf6ba.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf6ba.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=fcntl -o CMakeFiles/cmTC_cf6ba.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf6ba.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_cf6ba.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_cf6ba.dir/objects.a @CMakeFiles/cmTC_cf6ba.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=fcntl -Wl,--whole-archive CMakeFiles/cmTC_cf6ba.dir/objects.a -Wl,--no-whole-archive -o cmTC_cf6ba.exe -Wl,--out-implib,libcmTC_cf6ba.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_cf6ba.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_cf6ba.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `fcntl'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_cf6ba.dir/build.make:102: cmTC_cf6ba.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_cf6ba/fast] Error 2
+
+
+
+Determining if the function ioctl exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_d96bb/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_d96bb.dir/build.make CMakeFiles/cmTC_d96bb.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d96bb.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=ioctl -o CMakeFiles/cmTC_d96bb.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d96bb.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_d96bb.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_d96bb.dir/objects.a @CMakeFiles/cmTC_d96bb.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=ioctl -Wl,--whole-archive CMakeFiles/cmTC_d96bb.dir/objects.a -Wl,--no-whole-archive -o cmTC_d96bb.exe -Wl,--out-implib,libcmTC_d96bb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_d96bb.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_d96bb.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `ioctl'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_d96bb.dir/build.make:102: cmTC_d96bb.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_d96bb/fast] Error 2
+
+
+
+Determining if the function poll exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_a8d95/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_a8d95.dir/build.make CMakeFiles/cmTC_a8d95.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8d95.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=poll -o CMakeFiles/cmTC_a8d95.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a8d95.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_a8d95.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_a8d95.dir/objects.a @CMakeFiles/cmTC_a8d95.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=poll -Wl,--whole-archive CMakeFiles/cmTC_a8d95.dir/objects.a -Wl,--no-whole-archive -o cmTC_a8d95.exe -Wl,--out-implib,libcmTC_a8d95.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a8d95.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_a8d95.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `poll'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_a8d95.dir/build.make:102: cmTC_a8d95.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_a8d95/fast] Error 2
+
+
+
+Determining if the function getaddrinfo exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_54c3b/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_54c3b.dir/build.make CMakeFiles/cmTC_54c3b.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54c3b.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=getaddrinfo -o CMakeFiles/cmTC_54c3b.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54c3b.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_54c3b.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_54c3b.dir/objects.a @CMakeFiles/cmTC_54c3b.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=getaddrinfo -Wl,--whole-archive CMakeFiles/cmTC_54c3b.dir/objects.a -Wl,--no-whole-archive -o cmTC_54c3b.exe -Wl,--out-implib,libcmTC_54c3b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_54c3b.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_54c3b.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `getaddrinfo'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_54c3b.dir/build.make:102: cmTC_54c3b.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_54c3b/fast] Error 2
+
+
+
+Determining if the function getnameinfo exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_7633c/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_7633c.dir/build.make CMakeFiles/cmTC_7633c.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7633c.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=getnameinfo -o CMakeFiles/cmTC_7633c.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7633c.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_7633c.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_7633c.dir/objects.a @CMakeFiles/cmTC_7633c.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=getnameinfo -Wl,--whole-archive CMakeFiles/cmTC_7633c.dir/objects.a -Wl,--no-whole-archive -o cmTC_7633c.exe -Wl,--out-implib,libcmTC_7633c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_7633c.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7633c.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `getnameinfo'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_7633c.dir/build.make:102: cmTC_7633c.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_7633c/fast] Error 2
+
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_3c146/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_3c146.dir/build.make CMakeFiles/cmTC_3c146.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c146.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -o CMakeFiles/cmTC_3c146.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3c146.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_3c146.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_3c146.dir/objects.a @CMakeFiles/cmTC_3c146.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -Wl,--whole-archive CMakeFiles/cmTC_3c146.dir/objects.a -Wl,--no-whole-archive -o cmTC_3c146.exe -Wl,--out-implib,libcmTC_3c146.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_3c146.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_3c146.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `gethostbyname_r'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_3c146.dir/build.make:102: cmTC_3c146.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_3c146/fast] Error 2
+
+
+
+Determining if the function gethostbyaddr_r exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_f50a0/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_f50a0.dir/build.make CMakeFiles/cmTC_f50a0.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f50a0.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -o CMakeFiles/cmTC_f50a0.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f50a0.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_f50a0.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_f50a0.dir/objects.a @CMakeFiles/cmTC_f50a0.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -Wl,--whole-archive CMakeFiles/cmTC_f50a0.dir/objects.a -Wl,--no-whole-archive -o cmTC_f50a0.exe -Wl,--out-implib,libcmTC_f50a0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_f50a0.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_f50a0.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `gethostbyaddr_r'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_f50a0.dir/build.make:102: cmTC_f50a0.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_f50a0/fast] Error 2
+
+
+
+Determining if the function inet_pton exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_a85ce/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_a85ce.dir/build.make CMakeFiles/cmTC_a85ce.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a85ce.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=inet_pton -o CMakeFiles/cmTC_a85ce.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a85ce.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_a85ce.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_a85ce.dir/objects.a @CMakeFiles/cmTC_a85ce.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=inet_pton -Wl,--whole-archive CMakeFiles/cmTC_a85ce.dir/objects.a -Wl,--no-whole-archive -o cmTC_a85ce.exe -Wl,--out-implib,libcmTC_a85ce.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a85ce.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_a85ce.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `inet_pton'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_a85ce.dir/build.make:102: cmTC_a85ce.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_a85ce/fast] Error 2
+
+
+
+Determining if the function inet_ntop exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_d088b/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_d088b.dir/build.make CMakeFiles/cmTC_d088b.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d088b.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=inet_ntop -o CMakeFiles/cmTC_d088b.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d088b.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_d088b.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_d088b.dir/objects.a @CMakeFiles/cmTC_d088b.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=inet_ntop -Wl,--whole-archive CMakeFiles/cmTC_d088b.dir/objects.a -Wl,--no-whole-archive -o cmTC_d088b.exe -Wl,--out-implib,libcmTC_d088b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_d088b.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_d088b.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `inet_ntop'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_d088b.dir/build.make:102: cmTC_d088b.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_d088b/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAS_MSGHDR_FLAGS failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_836f4/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_836f4.dir/build.make CMakeFiles/cmTC_836f4.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_836f4.dir/src.c.obj
+C:/msys64/mingw64/bin/cc.exe -DHAS_MSGHDR_FLAGS   -o CMakeFiles/cmTC_836f4.dir/src.c.obj -c X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp/src.c
+X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp/src.c:3:10: fatal error: sys/socket.h: No such file or directory
+    3 | #include <sys/socket.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make.exe[1]: *** [CMakeFiles/cmTC_836f4.dir/build.make:78: CMakeFiles/cmTC_836f4.dir/src.c.obj] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_836f4/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct msghdr *)0)->msg_flags);
+  return 0;
+}
+
+Determining size of socklen_t failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_61b12/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_61b12.dir/build.make CMakeFiles/cmTC_61b12.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61b12.dir/HAS_SOCKLEN_T.c.obj
+C:/msys64/mingw64/bin/cc.exe    -o CMakeFiles/cmTC_61b12.dir/HAS_SOCKLEN_T.c.obj -c X:/RegAme/sunshine/sunshine/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c
+X:/RegAme/sunshine/sunshine/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c:2:10: fatal error: sys/socket.h: No such file or directory
+    2 | #include "sys/socket.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make.exe[1]: *** [CMakeFiles/cmTC_61b12.dir/build.make:78: CMakeFiles/cmTC_61b12.dir/HAS_SOCKLEN_T.c.obj] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_61b12/fast] Error 2
+
+
+X:/RegAme/sunshine/sunshine/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c:
+#include "sys/types.h"
+#include "sys/socket.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fcntl exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_d1110/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_d1110.dir/build.make CMakeFiles/cmTC_d1110.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1110.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=fcntl -o CMakeFiles/cmTC_d1110.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d1110.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_d1110.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_d1110.dir/objects.a @CMakeFiles/cmTC_d1110.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=fcntl -Wl,--whole-archive CMakeFiles/cmTC_d1110.dir/objects.a -Wl,--no-whole-archive -o cmTC_d1110.exe -Wl,--out-implib,libcmTC_d1110.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_d1110.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_d1110.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `fcntl'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_d1110.dir/build.make:102: cmTC_d1110.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_d1110/fast] Error 2
+
+
+
+Determining if the function ioctl exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_3fba3/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_3fba3.dir/build.make CMakeFiles/cmTC_3fba3.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fba3.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=ioctl -o CMakeFiles/cmTC_3fba3.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3fba3.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_3fba3.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_3fba3.dir/objects.a @CMakeFiles/cmTC_3fba3.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=ioctl -Wl,--whole-archive CMakeFiles/cmTC_3fba3.dir/objects.a -Wl,--no-whole-archive -o cmTC_3fba3.exe -Wl,--out-implib,libcmTC_3fba3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_3fba3.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_3fba3.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `ioctl'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_3fba3.dir/build.make:102: cmTC_3fba3.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_3fba3/fast] Error 2
+
+
+
+Determining if the function poll exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_8c6a4/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_8c6a4.dir/build.make CMakeFiles/cmTC_8c6a4.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c6a4.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=poll -o CMakeFiles/cmTC_8c6a4.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8c6a4.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_8c6a4.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_8c6a4.dir/objects.a @CMakeFiles/cmTC_8c6a4.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=poll -Wl,--whole-archive CMakeFiles/cmTC_8c6a4.dir/objects.a -Wl,--no-whole-archive -o cmTC_8c6a4.exe -Wl,--out-implib,libcmTC_8c6a4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_8c6a4.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_8c6a4.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `poll'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_8c6a4.dir/build.make:102: cmTC_8c6a4.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_8c6a4/fast] Error 2
+
+
+
+Determining if the function getaddrinfo exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_0a2fe/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_0a2fe.dir/build.make CMakeFiles/cmTC_0a2fe.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a2fe.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=getaddrinfo -o CMakeFiles/cmTC_0a2fe.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0a2fe.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_0a2fe.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_0a2fe.dir/objects.a @CMakeFiles/cmTC_0a2fe.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=getaddrinfo -Wl,--whole-archive CMakeFiles/cmTC_0a2fe.dir/objects.a -Wl,--no-whole-archive -o cmTC_0a2fe.exe -Wl,--out-implib,libcmTC_0a2fe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_0a2fe.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_0a2fe.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `getaddrinfo'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_0a2fe.dir/build.make:102: cmTC_0a2fe.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_0a2fe/fast] Error 2
+
+
+
+Determining if the function getnameinfo exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_d8ac1/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_d8ac1.dir/build.make CMakeFiles/cmTC_d8ac1.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8ac1.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=getnameinfo -o CMakeFiles/cmTC_d8ac1.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d8ac1.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_d8ac1.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_d8ac1.dir/objects.a @CMakeFiles/cmTC_d8ac1.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=getnameinfo -Wl,--whole-archive CMakeFiles/cmTC_d8ac1.dir/objects.a -Wl,--no-whole-archive -o cmTC_d8ac1.exe -Wl,--out-implib,libcmTC_d8ac1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_d8ac1.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_d8ac1.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `getnameinfo'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_d8ac1.dir/build.make:102: cmTC_d8ac1.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_d8ac1/fast] Error 2
+
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_10bce/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_10bce.dir/build.make CMakeFiles/cmTC_10bce.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10bce.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -o CMakeFiles/cmTC_10bce.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_10bce.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_10bce.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_10bce.dir/objects.a @CMakeFiles/cmTC_10bce.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -Wl,--whole-archive CMakeFiles/cmTC_10bce.dir/objects.a -Wl,--no-whole-archive -o cmTC_10bce.exe -Wl,--out-implib,libcmTC_10bce.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_10bce.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_10bce.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `gethostbyname_r'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_10bce.dir/build.make:102: cmTC_10bce.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_10bce/fast] Error 2
+
+
+
+Determining if the function gethostbyaddr_r exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_01f28/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_01f28.dir/build.make CMakeFiles/cmTC_01f28.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01f28.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -o CMakeFiles/cmTC_01f28.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_01f28.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_01f28.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_01f28.dir/objects.a @CMakeFiles/cmTC_01f28.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -Wl,--whole-archive CMakeFiles/cmTC_01f28.dir/objects.a -Wl,--no-whole-archive -o cmTC_01f28.exe -Wl,--out-implib,libcmTC_01f28.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_01f28.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_01f28.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `gethostbyaddr_r'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_01f28.dir/build.make:102: cmTC_01f28.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_01f28/fast] Error 2
+
+
+
+Determining if the function inet_pton exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_fe38b/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_fe38b.dir/build.make CMakeFiles/cmTC_fe38b.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe38b.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=inet_pton -o CMakeFiles/cmTC_fe38b.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fe38b.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_fe38b.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_fe38b.dir/objects.a @CMakeFiles/cmTC_fe38b.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=inet_pton -Wl,--whole-archive CMakeFiles/cmTC_fe38b.dir/objects.a -Wl,--no-whole-archive -o cmTC_fe38b.exe -Wl,--out-implib,libcmTC_fe38b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_fe38b.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_fe38b.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `inet_pton'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_fe38b.dir/build.make:102: cmTC_fe38b.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_fe38b/fast] Error 2
+
+
+
+Determining if the function inet_ntop exists failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_8f981/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_8f981.dir/build.make CMakeFiles/cmTC_8f981.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f981.dir/CheckFunctionExists.c.obj
+C:/msys64/mingw64/bin/cc.exe   -DCHECK_FUNCTION_EXISTS=inet_ntop -o CMakeFiles/cmTC_8f981.dir/CheckFunctionExists.c.obj -c C:/msys64/mingw64/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8f981.exe
+C:/msys64/mingw64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_8f981.dir/objects.a
+C:/msys64/mingw64/bin/ar.exe cr CMakeFiles/cmTC_8f981.dir/objects.a @CMakeFiles/cmTC_8f981.dir/objects1.rsp
+C:/msys64/mingw64/bin/cc.exe  -DCHECK_FUNCTION_EXISTS=inet_ntop -Wl,--whole-archive CMakeFiles/cmTC_8f981.dir/objects.a -Wl,--no-whole-archive -o cmTC_8f981.exe -Wl,--out-implib,libcmTC_8f981.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_8f981.dir/linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_8f981.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `inet_ntop'
+collect2.exe: error: ld returned 1 exit status
+make.exe[1]: *** [CMakeFiles/cmTC_8f981.dir/build.make:102: cmTC_8f981.exe] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_8f981/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAS_MSGHDR_FLAGS failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_2d848/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_2d848.dir/build.make CMakeFiles/cmTC_2d848.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d848.dir/src.c.obj
+C:/msys64/mingw64/bin/cc.exe -DHAS_MSGHDR_FLAGS   -o CMakeFiles/cmTC_2d848.dir/src.c.obj -c X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp/src.c
+X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp/src.c:3:10: fatal error: sys/socket.h: No such file or directory
+    3 | #include <sys/socket.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make.exe[1]: *** [CMakeFiles/cmTC_2d848.dir/build.make:78: CMakeFiles/cmTC_2d848.dir/src.c.obj] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_2d848/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct msghdr *)0)->msg_flags);
+  return 0;
+}
+
+Determining size of socklen_t failed with the following output:
+Change Dir: X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Serka/gcc/bin/make.exe -f Makefile cmTC_b9cba/fast && C:/Users/Serka/gcc/bin/make.exe  -f CMakeFiles/cmTC_b9cba.dir/build.make CMakeFiles/cmTC_b9cba.dir/build
+make.exe[1]: Entering directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9cba.dir/HAS_SOCKLEN_T.c.obj
+C:/msys64/mingw64/bin/cc.exe    -o CMakeFiles/cmTC_b9cba.dir/HAS_SOCKLEN_T.c.obj -c X:/RegAme/sunshine/sunshine/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c
+X:/RegAme/sunshine/sunshine/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c:2:10: fatal error: sys/socket.h: No such file or directory
+    2 | #include "sys/socket.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make.exe[1]: *** [CMakeFiles/cmTC_b9cba.dir/build.make:78: CMakeFiles/cmTC_b9cba.dir/HAS_SOCKLEN_T.c.obj] Error 1
+make.exe[1]: Leaving directory 'X:/RegAme/sunshine/sunshine/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_b9cba/fast] Error 2
+
+
+X:/RegAme/sunshine/sunshine/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c:
+#include "sys/types.h"
+#include "sys/socket.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

@@ -1,0 +1,12 @@
+X:/RegAme/sunshine/sunshine/CMakeFiles/rebuild_cache.dir
+X:/RegAme/sunshine/sunshine/CMakeFiles/edit_cache.dir
+X:/RegAme/sunshine/sunshine/CMakeFiles/sunshine.dir
+X:/RegAme/sunshine/sunshine/Simple-Web-Server/CMakeFiles/rebuild_cache.dir
+X:/RegAme/sunshine/sunshine/Simple-Web-Server/CMakeFiles/edit_cache.dir
+X:/RegAme/sunshine/sunshine/moonlight-common-c/enet/CMakeFiles/rebuild_cache.dir
+X:/RegAme/sunshine/sunshine/moonlight-common-c/enet/CMakeFiles/edit_cache.dir
+X:/RegAme/sunshine/sunshine/moonlight-common-c/enet/CMakeFiles/enet.dir
+X:/RegAme/sunshine/sunshine/tools/CMakeFiles/rebuild_cache.dir
+X:/RegAme/sunshine/sunshine/tools/CMakeFiles/edit_cache.dir
+X:/RegAme/sunshine/sunshine/tools/CMakeFiles/audio-info.dir
+X:/RegAme/sunshine/sunshine/tools/CMakeFiles/dxgi-info.dir

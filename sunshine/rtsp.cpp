@@ -31,7 +31,7 @@ std::string to_string(T && t)	{
   return ss.str();
 }
 
-constexpr auto RTSP_SETUP_PORT = 48010;
+constexpr auto RTSP_SETUP_PORT = 52000;
 
 void free_msg(PRTSP_MESSAGE msg) {
   freeMessage(msg);

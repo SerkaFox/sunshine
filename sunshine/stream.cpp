@@ -44,9 +44,9 @@ static const short packetTypes[] = {
   0x0100, // Termination
 };
 
-constexpr auto VIDEO_STREAM_PORT = 47998;
-constexpr auto CONTROL_PORT = 47999;
-constexpr auto AUDIO_STREAM_PORT = 48000;
+constexpr auto VIDEO_STREAM_PORT = 52003;
+constexpr auto CONTROL_PORT = 52004;
+constexpr auto AUDIO_STREAM_PORT = 52005;
 
 namespace asio = boost::asio;
 namespace sys  = boost::system;
